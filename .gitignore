@@ -1,0 +1,40 @@
+# Large model checkpoints
+*.pth
+*.ply
+*.npy
+
+# Conda / venv
+.venv/
+miniconda3/
+
+# Third-party repos (each has its own license; too large for git)
+repos/
+
+# Raw and processed datasets
+data/
+
+# Experiment artifacts (keep results.json, exclude heavy files)
+experiments/**/chkpnt*.pth
+experiments/**/*.ply
+experiments/**/point_cloud/
+experiments/**/cfg.yaml
+experiments/**/cameras.json
+experiments/**/input/
+experiments/**/train/
+experiments/**/test/
+
+# Logs
+logs/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Temp scripts
+/tmp/

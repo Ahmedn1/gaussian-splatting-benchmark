@@ -1,0 +1,65 @@
+[
+  {
+    "scene": "bicycle",
+    "iterations": 30000,
+    "resolution": "images_4",
+    "train_minutes": 56.65215533574422,
+    "SSIM": 0.7657412886619568,
+    "PSNR": 25.234750747680664,
+    "LPIPS": 0.20890533924102783
+  },
+  {
+    "scene": "garden",
+    "iterations": 30000,
+    "resolution": "images_4",
+    "train_minutes": 56.08046575387319,
+    "SSIM": 0.8683908581733704,
+    "PSNR": 27.56053352355957,
+    "LPIPS": 0.10610737651586533
+  },
+  {
+    "scene": "stump",
+    "iterations": 30000,
+    "resolution": "images_4",
+    "train_minutes": 45.41176748275757,
+    "SSIM": 0.7718398571014404,
+    "PSNR": 26.650466918945312,
+    "LPIPS": 0.21533767879009247
+  },
+  {
+    "scene": "bonsai",
+    "iterations": 30000,
+    "resolution": "images_2",
+    "train_minutes": 35.66341353257497,
+    "SSIM": 0.9420259594917297,
+    "PSNR": 32.04756546020508,
+    "LPIPS": 0.2035716474056244
+  },
+  {
+    "scene": "counter",
+    "iterations": 30000,
+    "resolution": "images_2",
+    "train_minutes": 44.31887879371643,
+    "SSIM": 0.9091168642044067,
+    "PSNR": 29.06137466430664,
+    "LPIPS": 0.19910597801208496
+  },
+  {
+    "scene": "kitchen",
+    "iterations": 30000,
+    "resolution": "images_2",
+    "train_minutes": 54.26035160621007,
+    "SSIM": 0.9278939366340637,
+    "PSNR": 31.414474487304688,
+    "LPIPS": 0.1253749132156372
+  },
+  {
+    "scene": "room",
+    "iterations": 30000,
+    "resolution": "images_2",
+    "train_minutes": 46.31143363316854,
+    "SSIM": 0.9206814169883728,
+    "PSNR": 31.662261962890625,
+    "LPIPS": 0.21722476184368134
+  }
+]

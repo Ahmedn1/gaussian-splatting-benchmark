@@ -1,0 +1,1 @@
+Namespace(sh_degree=3, source_path='/media/ahmed/Data/Work/Kaggle/Neural Rendering/data/benchmarks/mipnerf360/stump', model_path='/media/ahmed/Data/Work/Kaggle/Neural Rendering/experiments/benchmarks/mipnerf360/stump', images='images_4', depths='', resolution=-1, white_background=False, train_test_exp=False, data_device='cuda', eval=True)

@@ -1,0 +1,11 @@
+[
+  {
+    "scene": "garden",
+    "iterations": 7000,
+    "resolution": "images_4",
+    "train_minutes": 9.640505731105804,
+    "SSIM": 0.8316534161567688,
+    "PSNR": 26.325429916381836,
+    "LPIPS": 0.15815795958042145
+  }
+]

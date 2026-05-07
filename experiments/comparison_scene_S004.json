@@ -1,0 +1,128 @@
+{
+  "scene": "scene_S004",
+  "ibr_baseline": {
+    "method": "ibr_nearest_neighbor",
+    "test": {
+      "n": 1,
+      "psnr": 11.361792155702554,
+      "ssim": 0.20956843072619788,
+      "lpips": 0.678469181060791
+    },
+    "per_image": {
+      "cam04": {
+        "psnr": 11.361792155702554,
+        "ssim": 0.20956843072619788,
+        "lpips": 0.678469181060791,
+        "split": "test",
+        "ibr_nearest": "cam01"
+      }
+    }
+  },
+  "static_runs": [
+    {
+      "method": "3dgs_static [baseline]",
+      "iteration": 30000,
+      "n_gaussians": 301513,
+      "train_time_min": 11.831669088204702,
+      "train": {
+        "n": 3,
+        "psnr": 50.08294804890951,
+        "ssim": 0.9957253535588583,
+        "lpips": 0.007940478157252073
+      },
+      "test": {
+        "n": 1,
+        "psnr": 12.165861129760742,
+        "ssim": 0.45593544840812683,
+        "lpips": 0.6452590823173523
+      }
+    },
+    {
+      "method": "3dgs_static [no_densify]",
+      "iteration": 30000,
+      "n_gaussians": 50000,
+      "train_time_min": 5.521726783116659,
+      "train": {
+        "n": 3,
+        "psnr": 28.40458806355794,
+        "ssim": 0.8939128120740255,
+        "lpips": 0.20328888297080994
+      },
+      "test": {
+        "n": 1,
+        "psnr": 10.847940444946289,
+        "ssim": 0.5449730753898621,
+        "lpips": 0.7845767736434937
+      }
+    },
+    {
+      "method": "3dgs_static [sh0]",
+      "iteration": 30000,
+      "n_gaussians": 303159,
+      "train_time_min": 10.00083640019099,
+      "train": {
+        "n": 3,
+        "psnr": 48.49730682373047,
+        "ssim": 0.9950554966926575,
+        "lpips": 0.009389167341093222
+      },
+      "test": {
+        "n": 1,
+        "psnr": 11.45660400390625,
+        "ssim": 0.39206135272979736,
+        "lpips": 0.6788709163665771
+      }
+    },
+    {
+      "method": "3dgs_static [sh1]",
+      "iteration": 30000,
+      "n_gaussians": 301668,
+      "train_time_min": 10.477258690198262,
+      "train": {
+        "n": 3,
+        "psnr": 49.206512451171875,
+        "ssim": 0.9953592419624329,
+        "lpips": 0.00859066347281138
+      },
+      "test": {
+        "n": 1,
+        "psnr": 12.548574447631836,
+        "ssim": 0.44171473383903503,
+        "lpips": 0.6518666744232178
+      }
+    },
+    {
+      "method": "3dgs_static [short]",
+      "iteration": 5000,
+      "n_gaussians": 269897,
+      "train_time_min": 1.35117959578832,
+      "train": {
+        "n": 3,
+        "psnr": 44.60430781046549,
+        "ssim": 0.9907240271568298,
+        "lpips": 0.016543271951377392
+      },
+      "test": {
+        "n": 1,
+        "psnr": 11.730152130126953,
+        "ssim": 0.45932242274284363,
+        "lpips": 0.651556134223938
+      }
+    }
+  ],
+  "dynamic_runs": [
+    {
+      "method": "deformable_3dgs [baseline]",
+      "iteration": 40000,
+      "n_gaussians": null,
+      "train_time_min": 166.0830416361491,
+      "train": null,
+      "test": {
+        "psnr": 11.651244163513184,
+        "ssim": 0.36630144715309143,
+        "lpips": 0.5933639407157898,
+        "n": null
+      }
+    }
+  ]
+}

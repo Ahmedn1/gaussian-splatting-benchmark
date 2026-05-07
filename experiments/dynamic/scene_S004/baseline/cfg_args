@@ -1,0 +1,1 @@
+Namespace(sh_degree=3, source_path='/media/ahmed/Data/Work/Kaggle/Neural Rendering/data/processed/scene_S004/dynamic/4dgs_combined', model_path='/media/ahmed/Data/Work/Kaggle/Neural Rendering/experiments/dynamic/scene_S004/baseline', images='images', resolution=-1, white_background=False, data_device='cuda', eval=True, load2gpu_on_the_fly=False, is_blender=False, is_6dof=False)

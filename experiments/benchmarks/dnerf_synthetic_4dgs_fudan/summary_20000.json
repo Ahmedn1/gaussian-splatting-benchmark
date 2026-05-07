@@ -1,0 +1,74 @@
+[
+  {
+    "scene": "bouncingballs",
+    "iterations": 20000,
+    "train_minutes": 9.421799329916636,
+    "PSNR": 33.392621231079104,
+    "SSIM": 0.9818078368902207,
+    "LPIPS": 0.03703961949795485,
+    "n_test_cams": 20
+  },
+  {
+    "scene": "hellwarrior",
+    "iterations": 20000,
+    "train_minutes": 6.218314003944397,
+    "PSNR": 34.750719451904295,
+    "SSIM": 0.9516285836696625,
+    "LPIPS": 0.0826812244951725,
+    "n_test_cams": 20
+  },
+  {
+    "scene": "hook",
+    "iterations": 20000,
+    "train_minutes": 28.857391166687012,
+    "PSNR": 32.37683115005493,
+    "SSIM": 0.9655298292636871,
+    "LPIPS": 0.0436518594622612,
+    "n_test_cams": 20
+  },
+  {
+    "scene": "jumpingjacks",
+    "iterations": 20000,
+    "train_minutes": 82.06989138126373,
+    "PSNR": 30.749368572235106,
+    "SSIM": 0.9681828171014786,
+    "LPIPS": 0.04142979336902499,
+    "n_test_cams": 20
+  },
+  {
+    "scene": "lego",
+    "iterations": 20000,
+    "train_minutes": 719.6784124096234,
+    "PSNR": 25.5580057664351,
+    "SSIM": 0.9199352968822826,
+    "LPIPS": 0.08594090559265831,
+    "n_test_cams": 11
+  },
+  {
+    "scene": "mutant",
+    "iterations": 20000,
+    "train_minutes": 25.699387764930727,
+    "PSNR": 38.915963363647464,
+    "SSIM": 0.9904262244701385,
+    "LPIPS": 0.011602912959642709,
+    "n_test_cams": 20
+  },
+  {
+    "scene": "standup",
+    "iterations": 20000,
+    "train_minutes": 25.66534740527471,
+    "PSNR": 39.40055875778198,
+    "SSIM": 0.9899295270442963,
+    "LPIPS": 0.011980120511725544,
+    "n_test_cams": 20
+  },
+  {
+    "scene": "trex",
+    "iterations": 20000,
+    "train_minutes": 187.17411622603734,
+    "PSNR": 29.897783756256104,
+    "SSIM": 0.9795719653367996,
+    "LPIPS": 0.023714241152629257,
+    "n_test_cams": 20
+  }
+]

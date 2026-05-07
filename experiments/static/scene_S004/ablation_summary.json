@@ -1,0 +1,59 @@
+{
+  "scene": "scene_S004",
+  "runs": [
+    {
+      "name": "no_densify",
+      "sh_degree": 3,
+      "iterations": 30000,
+      "extra_args": [
+        "--densify_until_iter",
+        "0"
+      ],
+      "metrics": {
+        "scene": "scene_S004",
+        "experiment": "no_densify",
+        "iteration": 30000,
+        "n_gaussians": 50000,
+        "train": {
+          "n": 3,
+          "psnr": 28.40458806355794,
+          "ssim": 0.8939128120740255,
+          "lpips": 0.20328888297080994
+        },
+        "test": {
+          "n": 1,
+          "psnr": 10.847940444946289,
+          "ssim": 0.5449730753898621,
+          "lpips": 0.7845767736434937
+        },
+        "per_image": {
+          "cam01": {
+            "psnr": 24.489059448242188,
+            "ssim": 0.8218958973884583,
+            "lpips": 0.32449454069137573,
+            "split": "train"
+          },
+          "cam02": {
+            "psnr": 31.24326515197754,
+            "ssim": 0.9370786547660828,
+            "lpips": 0.11349834501743317,
+            "split": "train"
+          },
+          "cam03": {
+            "psnr": 29.4814395904541,
+            "ssim": 0.9227638840675354,
+            "lpips": 0.1718737632036209,
+            "split": "train"
+          },
+          "cam04": {
+            "psnr": 10.847940444946289,
+            "ssim": 0.5449730753898621,
+            "lpips": 0.7845767736434937,
+            "split": "test"
+          }
+        }
+      },
+      "train_time_min": 332.45885157585144
+    }
+  ]
+}

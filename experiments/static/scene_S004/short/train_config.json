@@ -1,0 +1,8 @@
+{
+  "scene": "scene_S004",
+  "experiment": "short",
+  "source_path": "/media/ahmed/Data/Work/Kaggle/Neural Rendering/data/processed/scene_S004/static_train",
+  "iterations": 5000,
+  "sh_degree": 3,
+  "train_time_minutes": 1.35117959578832
+}

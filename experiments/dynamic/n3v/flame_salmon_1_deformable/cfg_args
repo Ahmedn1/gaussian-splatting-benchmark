@@ -1,0 +1,1 @@
+Namespace(sh_degree=3, source_path='/media/ahmed/Data/Work/Kaggle/Neural Rendering/data/processed/n3v/flame_salmon_1', model_path='/media/ahmed/Data/Work/Kaggle/Neural Rendering/experiments/dynamic/n3v/flame_salmon_1_deformable', images='images', resolution=2, white_background=False, data_device='cpu', eval=False, load2gpu_on_the_fly=False, is_blender=False, is_6dof=False)

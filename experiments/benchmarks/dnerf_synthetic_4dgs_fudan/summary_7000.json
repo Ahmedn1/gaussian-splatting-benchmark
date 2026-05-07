@@ -1,0 +1,11 @@
+[
+  {
+    "scene": "bouncingballs",
+    "iterations": 7000,
+    "train_minutes": 2.8305047114690143,
+    "PSNR": 33.277280712127684,
+    "SSIM": 0.9823604732751846,
+    "LPIPS": 0.03864717436954379,
+    "n_test_cams": 20
+  }
+]
